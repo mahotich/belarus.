@@ -27,6 +27,14 @@ const paths = {
    imgage: {
       src: 'src/img/**/*',
       dest: 'assets/dist/img/'
+   },
+   font:{
+      src: 'src/font/**/*',
+      dest: 'assets/dist/font/'
+   },
+   music:{
+      src: 'src/music/**/*',
+      dest: 'assets/dist/music/'
    }
 }
 
@@ -44,7 +52,7 @@ function html() {
 
 function styles() {
    return src(paths.styles.src)
-      .pipe(sass().on('error', sass.logError))
+      // .pipe(sass().on('error', sass.logError))
       .pipe(less())
       .pipe(autoprefixer({
          cascade: false
@@ -72,6 +80,18 @@ function images() {
       .pipe(dest(paths.imgage.dest)) // Выгружаем оптимизированные изображения в папку назначения
 }
 
+function font() {
+   return src(paths.font.src) 
+      .pipe(dest(paths.font.dest)) // Выгружаем оптимизированные изображения в папку назначения
+}
+
+function music() {
+   return src(paths.music.src) 
+      .pipe(dest(paths.music.dest)) // Выгружаем оптимизированные изображения в папку назначения
+}
+
+
+
 function startwatch() {
    browsersync.init({
       server: {
@@ -90,7 +110,9 @@ exports.clean = clean
 exports.html = html
 exports.styles = styles
 exports.scripts = scripts
+exports.font = font
+exports.music = music
 exports.startwatch = startwatch
 
 // Таск, который выполняется по команде gulp
-exports.default = series(clean, html, parallel(styles, scripts,images), startwatch)
+exports.default = series(clean, html, parallel(styles, scripts,images,font,music), startwatch)
