@@ -17,11 +17,11 @@ const paths = {
       dest: 'assets/dist/'
    },
    styles: {
-      src: ['src/styles/**/*.sass', 'src/styles/**/*.scss', 'src/styles/**/*.css', 'src/styles/**/*.less'],
+      src: ['src/styles/**/*.sass', 'src/styles/**/*.scss', 'src/styles/**/*.css', 'src/styles/**/*.less','node_modules/slick-carousel/slick/slick.css'],
       dest: 'assets/dist/css/'
    },
    scripts: {
-      src: 'src/js/**/*.js',
+      src: ['node_modules/jquery/dist/jquery.min.js','node_modules/slick-carousel/slick/slick.js','src/js/**/*.js'],
       dest: 'assets/dist/js/'
    },
    imgage: {
