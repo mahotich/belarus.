@@ -37,6 +37,8 @@ $('.carousel').slick({
   ]
 })
 
+// ---------------------------------
+// клик замена кнопок 
 const btnNext = document.getElementById('btn-left')
 const btnPrev = document.getElementById('btn-right')
 const nextBtnSlick = document.querySelector('.slick-next')
@@ -52,6 +54,25 @@ if(btnNext & btnPrev & btnPrev & prevBtnSlick) {
   })
 }
 
+
+// ---------------------------------
+// паралакс
+// const imgCards =document.querySelectorAll('.content__item-img')
+
+// const imgCardsArr = [...imgCards]
+
+// imgCardsArr.forEach(elem => {
+//   elem.addEventListener('mouseover',function(el){
+//     const half=elem.offsetHeight/2;
+//     elem.style.transform='rotateX('+ -(el.offsetY-half)/5+ 'deg) rotateY('+(el.offsetX-half)/5+'deg)';
+//     });
+//   elem.addEventListener('mouseout',function(){
+//     elem.style.transform='rotate(0)';
+//     });
+// })
+
+
+
 // ----------------------
 // меню
 const button = document.querySelector('.menu_burger');
@@ -64,21 +85,42 @@ button.addEventListener('click',() => {
 })
 
 
+// -----------------------
+// Анимаця gsap loader
+let url = window.location.pathname;
+if(url==='/modal.html'){
+  startAni ()
+  modalAni()
+}
+else{
+  startAni ()
+  slickAni()
+}
 
 // ----------------------------
 // Сообщение в бургере
 const bgMasActive=document.querySelector('.burger-messager');
 const idclos=document.querySelector('.closed');
 const mesBG=document.querySelector('.bg-position');
+const tl_bg=gsap.timeline()
 
 bgMasActive.addEventListener('click',()=>{
+  tl_bg.from(mesBG,{opacity:0, x:-40})
   mesBG.classList.add('bg-pos-active')
+  mesBG.classList.add('bg-pos-oppacity')
 });
 
 idclos.addEventListener('click',()=>{
-  mesBG.classList.remove('bg-pos-active')
+  let qw=tl_bg.to(mesBG,{x:0, opacity:0})
+
+  mesBG.classList.remove('bg-pos-oppacity')
+  setTimeout(() => {
+    mesBG.classList.remove('bg-pos-active')
+  }, 500)
+  qw.repeat()
 });
 
+// --------------------------------
 // Наушники
 const earPohne=document.querySelectorAll('.container__img-ear');
 const imgEar=document.querySelectorAll('.img-ear');
@@ -94,8 +136,20 @@ earPohne.forEach(item => {
   })
 })
 
+// ----------------
+// переход
+const mask=document.querySelector('.mask-animation');
 
-
+const links = [...document.getElementsByTagName('a')]
+links.forEach(elem => {
+  elem.addEventListener('click', event => {
+      event.preventDefault()
+      mask.classList.add('mask-animation-active')
+      setTimeout(() => {
+        location.href = event.target.href
+      }, 900)
+  })
+})
 
 
 // -------------------------------------------

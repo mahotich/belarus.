@@ -22,11 +22,47 @@
 
 @color-bg: #FCFCFC;
 
+
+
+
 body {
    font-family: @ff-r;
    background-color: @color-bg;
    margin: 0;
 }
+
+a {
+   text-decoration: none;
+   color: #195E74;
+}
+
+.mask-animation {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: -120%;
+   z-index: 150;
+   background-color: #195E74;
+
+   &::before {
+      content: '';
+      position: absolute;
+      right: -60px;
+      top: -30%;
+      height: 150%;
+      width: 30%;
+      background-color: #195E74;
+      transform: rotate(-10deg);
+   }
+}
+
+
+.mask-animation-active {
+   left: 100%;
+   transition: 1s cubic-bezier(1, 0.3, 0.3, 0.5);
+}
+
 
 .body-active {
    overflow: hidden;
@@ -40,6 +76,7 @@ body {
 
 main {
    padding-bottom: 39px;
+   overflow-x: hidden;
 }
 
 .head_menu {
@@ -73,8 +110,12 @@ main {
    display: none;
 }
 
+.bg-pos-oppacity {
+   opacity: 1 !important;
+}
+
 .bg-pos-active {
-   display: block;
+   display: block !important;
 }
 
 .bg-masseger {
@@ -308,6 +349,9 @@ div.ImgField {
    width: 100%;
    object-fit: cover;
    cursor: pointer;
+   perspective: 1000px;
+   transform-style: preserve-3d;
+   transition: transform 0.5s;
 }
 
 .content__item_text {
@@ -602,6 +646,7 @@ div.ImgField {
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      padding-top: 10px;
    }
 
    .content__item-text {
@@ -611,7 +656,7 @@ div.ImgField {
    }
 
    .btn-modal {
-      top: 24%;
+      top: 20%;
    }
 
    .slider-prev {
@@ -624,10 +669,6 @@ div.ImgField {
 
    main {
       padding-bottom: 0;
-   }
-
-   .menu ul {
-      margin-bottom: 0;
    }
 }
 
