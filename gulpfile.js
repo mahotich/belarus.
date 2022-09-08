@@ -87,16 +87,19 @@ function images() {
    return src(paths.imgage.src) 
       .pipe(newer(paths.imgage.dest))// Берём все изображения из папки источника
       .pipe(dest(paths.imgage.dest)) // Выгружаем оптимизированные изображения в папку назначения
+      .pipe(browsersync.stream())
 }
 
 function font() {
    return src(paths.font.src) 
       .pipe(dest(paths.font.dest)) // Выгружаем оптимизированные изображения в папку назначения
+      .pipe(browsersync.stream())
 }
 
 function music() {
    return src(paths.music.src) 
       .pipe(dest(paths.music.dest)) // Выгружаем оптимизированные изображения в папку назначения
+      .pipe(browsersync.stream())
 }
 
 

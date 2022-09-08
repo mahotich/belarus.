@@ -1,19 +1,19 @@
 @font-face {
    font-family: "NoirPro-Regular";
    src: url("/font/NoirPro-Regular.woff2") format("woff2"),
-      url("/font/NoirPro-Regular.woff") format("woff");
+      url("/font/NoirPro-Regular.woff") format("woff"),
 }
 
 @font-face {
    font-family: "NoirPro-Medium";
    src: url("/font/NoirPro-Medium.woff2") format("woff2"),
-      url("/font/NoirPro-Medium.woff") format("woff");
+      url("/font/NoirPro-Medium.woff") format("woff"),
 }
 
 @font-face {
    font-family: "NoirPro-Light";
    src: url("/font/NoirPro-Light.woff2") format("woff2"),
-      url("/font/NoirPro-Light.woff") format("woff");
+      url("/font/NoirPro-Light.woff") format("woff"),
 }
 
 @ff-r: NoirPro-Regular;
@@ -308,20 +308,20 @@ h1 {
 
 // картинка смена
 div.ImgField {
-   display: inline-block;
    background-position: center center;
    background-repeat: no-repeat;
    margin: 0;
    padding: 0;
 }
 
-.image.first,
-.image.second {
+.first,
+.second {
    margin: 0;
    padding: 0;
 }
 
-.image.first {
+
+.first {
    opacity: 1px;
    display: block;
    position: absolute;
@@ -329,7 +329,7 @@ div.ImgField {
    transition-duration: 0.5s;
 }
 
-.image.first:hover {
+.first:hover {
    opacity: 0.00;
 }
 
@@ -349,6 +349,9 @@ div.ImgField {
    width: 100%;
    object-fit: cover;
    cursor: pointer;
+
+
+   // --------------------------------------------------------------------------
    perspective: 1000px;
    transform-style: preserve-3d;
    transition: transform 0.5s;
