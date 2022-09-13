@@ -6,7 +6,7 @@ $('.carousel').slick({
 {
   breakpoint: 1350,
   settings: {
-    arrows : false
+    // arrows : false
   }
 },
     {
@@ -15,7 +15,7 @@ $('.carousel').slick({
         slidesToShow: 2,
         slidesToScroll: 2,
         infinite: true,
-        arrows : false
+        // arrows : false
       }
     },
     {
@@ -23,7 +23,7 @@ $('.carousel').slick({
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
-        arrows : false
+        // arrows : false
       }
     },
     {
@@ -31,7 +31,7 @@ $('.carousel').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows : false
+        // arrows : false
       }
     }
   ]
@@ -45,32 +45,14 @@ const nextBtnSlick = document.querySelector('.slick-next')
 const prevBtnSlick = document.querySelector('.slick-prev')
 
 
-if(btnNext & btnPrev & btnPrev & prevBtnSlick) {
+// if(btnNext & btnPrev & nextBtnSlick & prevBtnSlick) {
   btnNext.addEventListener('click', () => {
     prevBtnSlick.click()
   })
   btnPrev.addEventListener('click', () => {
     nextBtnSlick.click()
   })
-}
-
-
-// ---------------------------------
-// паралакс
-// const imgCards =document.querySelectorAll('.content__item-img')
-
-// const imgCardsArr = [...imgCards]
-
-// imgCardsArr.forEach(elem => {
-//   elem.addEventListener('mouseover',function(el){
-//     const half=elem.offsetHeight/2;
-//     elem.style.transform='rotateX('+ -(el.offsetY-half)/5+ 'deg) rotateY('+(el.offsetX-half)/5+'deg)';
-//     });
-//   elem.addEventListener('mouseout',function(){
-//     elem.style.transform='rotate(0)';
-//     });
-// })
-
+// }
 
 
 // ----------------------
@@ -88,37 +70,12 @@ button.addEventListener('click',() => {
 // -----------------------
 // Анимаця gsap loader
 let url = window.location.pathname;
-if(url==='/modal.html'){
-  startAni ()
-  modalAni()
-}
-else{
-  startAni ()
-  slickAni()
+if ( window.outerWidth > 1200) {
+    startAni ()
+    slickAni()
 }
 
-// ----------------------------
-// Сообщение в бургере
-const bgMasActive=document.querySelector('.burger-messager');
-const idclos=document.querySelector('.closed');
-const mesBG=document.querySelector('.bg-position');
-const tl_bg=gsap.timeline()
 
-bgMasActive.addEventListener('click',()=>{
-  tl_bg.from(mesBG,{opacity:0, x:-40})
-  mesBG.classList.add('bg-pos-active')
-  mesBG.classList.add('bg-pos-oppacity')
-});
-
-idclos.addEventListener('click',()=>{
-  let qw=tl_bg.to(mesBG,{x:0, opacity:0})
-
-  mesBG.classList.remove('bg-pos-oppacity')
-  setTimeout(() => {
-    mesBG.classList.remove('bg-pos-active')
-  }, 500)
-  qw.repeat()
-});
 
 // --------------------------------
 // Наушники
@@ -128,11 +85,11 @@ const imgEar=document.querySelectorAll('.img-ear');
 earPohne.forEach(item => {
   item.addEventListener('mouseover', function() {
     const activeElement = this
-    activeElement.firstChild.classList.add('img-ear-active')
+    activeElement.firstChild.nextElementSibling.classList.add('img-ear-active')
   })
   item.addEventListener('mouseout', function() {
     const activeElement = this
-    activeElement.firstChild.classList.remove('img-ear-active')
+    activeElement.firstChild.nextElementSibling.classList.remove('img-ear-active')
   })
 })
 
@@ -151,9 +108,26 @@ links.forEach(elem => {
   })
 })
 
+// Пункт меню
+// -------------------------------------------
+let pageId = document.querySelector("[data-id-page]").getAttribute("data-id-page");
+let navItem = document.querySelector(`[data-id-nav=${pageId}]`);
+
+if(pageId == navItem.getAttribute("data-id-nav")) {
+  navItem.classList.add('menu__active');
+}
+
+
+
+const menuItems= document.querySelectorAll('.menu__items');
+menuItems.forEach(elem=>{
+elem.addEventListener('click',event=>{
+  event.classList.add('menu__active');
+  
+})
+})
 
 // -------------------------------------------
-
 
 
 // window.addEventListener("load", () => {

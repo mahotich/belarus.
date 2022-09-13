@@ -78,3 +78,103 @@ lexicon/fa/): failed to open dir: No such file or directory
 [2022-09-08 01:09:33] (ERROR @ C:\OpenServer\domains\belarus\core\vendor\xpdo\xpdo\src\xPDO\Cache\xPDOCacheManager.php : 475) PHP warning: opendir(C:/OpenServer/domains/belarus/core/cache/includes/elements/modx/revolution/modsnippet/): failed to open dir: No such file or directory
 [2022-09-08 01:09:33] (ERROR @ C:\OpenServer\domains\belarus\core\vendor\xpdo\xpdo\src\xPDO\Cache\xPDOCacheManager.php : 475) PHP warning: opendir(C:\OpenServer\domains\belarus/core/cache/menu/menus/topnav/): Системе не удается найти указанный путь. (code: 3)
 [2022-09-08 01:09:33] (ERROR @ C:\OpenServer\domains\belarus\core\vendor\xpdo\xpdo\src\xPDO\Cache\xPDOCacheManager.php : 475) PHP warning: opendir(C:\OpenServer\domains\belarus/core/cache/menu/menus/topnav/): failed to open dir: No such file or directory
+[2022-09-08 22:56:55] (ERROR @ C:\OpenServer\domains\belarus\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 666) Could not load class: menu__items from mysql.menu__items
+[2022-09-08 22:56:55] (ERROR @ C:\OpenServer\domains\belarus\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 666) Could not load class: menu__items from mysql.menu__items
+[2022-09-08 22:56:55] (ERROR @ C:\OpenServer\domains\belarus\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 1637) Could not load class menu__items
+[2022-09-08 22:56:55] (ERROR @ C:\OpenServer\domains\belarus\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 666) Could not load class: menu__items from mysql.menu__items
+[2022-09-08 22:56:55] (ERROR @ C:\OpenServer\domains\belarus\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 666) Could not load class: menu__items from mysql.menu__items
+[2022-09-08 22:56:55] (ERROR @ C:\OpenServer\domains\belarus\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 666) Could not load class: menu__items from mysql.menu__items
+[2022-09-08 22:56:55] (ERROR @ C:\OpenServer\domains\belarus\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 786) menu__items::getSelectColumns() is not a valid static method.
+[2022-09-08 22:56:55] (ERROR @ C:\OpenServer\domains\belarus\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 666) Could not load class: menu__items from mysql.menu__items
+[2022-09-08 22:56:55] (ERROR @ C:\OpenServer\domains\belarus\core\components\pdotools\src\Fetch.php : 185) [pdoTools] Error 42000: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY menuindex ASC' at line 1
+[2022-09-08 22:56:55] (ERROR @ C:\OpenServer\domains\belarus\core\components\pdotools\src\CoreTools.php : 857) PHP warning: count(): Parameter must be an array or an object that implements Countable
+[2022-09-08 22:56:55] (ERROR @ C:\OpenServer\domains\belarus\core\components\pdotools\src\CoreTools.php : 858) PHP warning: current() expects parameter 1 to be array, string given
+[2022-09-09 14:38:36] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name img_start.
+[2022-09-09 14:38:36] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name img_start.
+[2022-09-09 14:38:36] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name img_start.
+[2022-09-09 14:38:36] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name img_start.
+[2022-09-09 14:38:52] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name img_start.
+[2022-09-09 14:38:52] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name img_start.
+[2022-09-09 14:38:52] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name img_start.
+[2022-09-09 14:38:52] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name img_start.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:48] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:57] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:57] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:57] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:57] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:57] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:57] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:57] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:57] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:57] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:57] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:57] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:57] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:57] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:57] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:57] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 14:45:57] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name uri.
+[2022-09-09 15:16:29] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modStaticResource.php : 143) modStaticResource->getFileContent() for resource 6: Could not load content from file C:/OpenServer/domains/belarus/assets/<p><meta charset="utf-8" />Брестская крепость — уникальное фортификационное сооружение, важнейший памятник Второй мировой войны, символ героического сопротивления и выдающегося мужества её защитников. В 1965 году, во время празднования 20-летия Победы над фашизмом, крепости было присвоено звание «Крепости-героя», а в 1971 году она становится мемориальным комплексом.<br />
+Брестская крепость расположена на 4 островах, образовавшихся благодаря рекам Мухавец и Западный Буг. Самый главным главным оборонительным узлом была Цитадель — остров с замкнутой, двухэтажной казармой и стенами — два метра в ширину, и почти два километра в длину.<br />
+В послевоенные годы оборона Брестской крепости в июне 1941 года стала символом героизма, верности присяге и любви к Родине. Сейчас комплекс является одним из наиболее узнаваемых и посещаемых туристических объектов Республики Беларусь.</p>
+
+[2022-09-09 15:16:38] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modStaticResource.php : 143) modStaticResource->getFileContent() for resource 6: Could not load content from file C:/OpenServer/domains/belarus/assets/<p><meta charset="utf-8" />Брестская крепость — уникальное фортификационное сооружение, важнейший памятник Второй мировой войны, символ героического сопротивления и выдающегося мужества её защитников. В 1965 году, во время празднования 20-летия Победы над фашизмом, крепости было присвоено звание «Крепости-героя», а в 1971 году она становится мемориальным комплексом.<br />
+Брестская крепость расположена на 4 островах, образовавшихся благодаря рекам Мухавец и Западный Буг. Самый главным главным оборонительным узлом была Цитадель — остров с замкнутой, двухэтажной казармой и стенами — два метра в ширину, и почти два километра в длину.<br />
+В послевоенные годы оборона Брестской крепости в июне 1941 года стала символом героизма, верности присяге и любви к Родине. Сейчас комплекс является одним из наиболее узнаваемых и посещаемых туристических объектов Республики Беларусь.</p>
+
+[2022-09-11 18:55:08] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modMenu.php : 80) The menu cache key menus/usernav/ru could not be written.
+[2022-09-13 19:51:01] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name pdoNeighbors
+                  tplWrapper.
+[2022-09-13 19:51:01] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name pdoNeighbors
+                  tplWrapper.
+[2022-09-13 19:51:01] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name pdoNeighbors
+                  tplWrapper.
+[2022-09-13 19:51:01] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name pdoNeighbors
+                  tplWrapper.
+[2022-09-13 19:51:10] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name pdoNeighbors
+                  tplWrapper.
+[2022-09-13 19:51:10] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name pdoNeighbors
+                  tplWrapper.
+[2022-09-13 19:51:16] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name pdoNeighbors
+                  tplWrapper.
+[2022-09-13 19:51:16] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name pdoNeighbors
+                  tplWrapper.
