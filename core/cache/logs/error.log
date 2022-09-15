@@ -178,3 +178,4 @@ lexicon/fa/): failed to open dir: No such file or directory
                   tplWrapper.
 [2022-09-13 19:51:16] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modParser.php : 509) Could not find snippet with name pdoNeighbors
                   tplWrapper.
+[2022-09-14 21:04:44] (ERROR @ C:\OpenServer\domains\belarus\core\src\Revolution\modScript.php : 88) PHP warning: include(): Failed opening 'C:\OpenServer\domains\belarus/core/cache/includes/elements/modx/revolution/modsnippet/1.include.cache.php' for inclusion (include_path='.')

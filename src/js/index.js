@@ -117,8 +117,6 @@ if(pageId == navItem.getAttribute("data-id-nav")) {
   navItem.classList.add('menu__active');
 }
 
-
-
 const menuItems= document.querySelectorAll('.menu__items');
 menuItems.forEach(elem=>{
 elem.addEventListener('click',event=>{
@@ -126,32 +124,3 @@ elem.addEventListener('click',event=>{
   
 })
 })
-
-// -------------------------------------------
-
-
-// window.addEventListener("load", () => {
-//   const brK = document.querySelector(".br_kr");
-
-//   const audio = new Audio();
-//   audio.preload = "auto";
-//   audio.src = "./music/boi.mp3";
-
-//   const saundWOWstart = () => {
-//     audio.play();
-//   }
-
-//   const saundWOWstop=()=> {
-//     audio.pause();
-//   }
-
-//   brK.onmouseover = () => {
-//     saundWOWstart();
-//     console.log("I");
-//   };
-
-//   brK.onmouseout = () => {
-//     saundWOWstop();
-//     console.log("m");
-//   };
-// });
